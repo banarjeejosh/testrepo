@@ -46,7 +46,7 @@ const Details = () => {
                   <div className="group__one">
                     <h4>Project Description</h4>
                     <p>
-                      The “Revest“ team is introducing a new buy to let
+                      The “Homevest“ team is introducing a new buy to let
                       investment opportunity: A19, Vilnius I. The invest ment
                       offer consists of administrative premises, which are
                       currently being converted into studio apartments/lofts. In
@@ -97,23 +97,23 @@ const Details = () => {
                     <h5>When investing:</h5>
                     <ul>
                       <li>
-                        <Image src={check} alt="Check" /> Up to 4999 € - the
+                        <Image src={check} alt="Check" /> Up to 4999 $ - the
                         annual return is 7%.
                       </li>
                       <li>
-                        <Image src={check} alt="Check" /> 5000 € – 14999 € - the
+                        <Image src={check} alt="Check" /> 5000 $ – 14999 $ - the
                         annual return is 7.1%.
                       </li>
                       <li>
-                        <Image src={check} alt="Check" /> 15000 € – 29999 € -
+                        <Image src={check} alt="Check" /> 15000 $ – 29999 $ -
                         the annual return is 7.2%.
                       </li>
                       <li>
-                        <Image src={check} alt="Check" /> 30000 € – 49999 € -
+                        <Image src={check} alt="Check" /> 30000 $ – 49999 $ -
                         the annual return is 7.35%.
                       </li>
                       <li>
-                        <Image src={check} alt="Check" /> 50000 € and more - the
+                        <Image src={check} alt="Check" /> 50000 $ and more - the
                         annual return is 7.5%.
                       </li>
                     </ul>
@@ -129,7 +129,7 @@ const Details = () => {
                       <TermSingleCard img={project} p="Project" heading="40%" />
                       <TermSingleCard
                         img={reinvest}
-                        p="Revest"
+                        p="Homevest"
                         heading="Up to 20%"
                       />
                     </div>
@@ -140,7 +140,7 @@ const Details = () => {
                       <h5>The project owner (borrower)</h5>
                       <p>
                         MB „Rego Properties“ - is a company serving as a special
-                        vehicle for revest investments. The CEO of the company -
+                        vehicle for Homevest investments. The CEO of the company -
                         Andrius Rimdeika is a former investment banker, who has
                         worked in investment firms such as ”Morgan Stanley” and
                         “Prime investment”.
@@ -191,7 +191,7 @@ const Details = () => {
                       />
                     </div>
                     <h5>
-                      Available for funding: <span>€134 514</span>
+                      Available for funding: <span>$134 514</span>
                     </h5>
                     {/* funding  */}
                     <Funding />

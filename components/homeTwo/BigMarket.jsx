@@ -20,9 +20,9 @@ const BigMarket = () => {
                 <h5 className="neutral-top">
                   Real exposure to the real estate market
                 </h5>
-                <h2>You Invest. Revest Does the Rest</h2>
+                <h2>You Invest. Homevest Does the Rest</h2>
                 <p>
-                  Transparent Real Estate Investing Through Revest.Join us and
+                  Transparent Real Estate Investing Through Homevest.Join us and
                   experience a smarter,better way to invest in real estate
                 </p>
                 <Link href="" className="button button--effect">
@@ -34,6 +34,13 @@ const BigMarket = () => {
           </div>
           <Image
             src={marketTwoIllustration}
+            style={{
+              width: '400px',
+              height: 'auto',
+              
+              top: '70px',
+              left: '700px'
+            }}
             alt="Explore the Market"
             className="d-none d-lg-block market__two__thumb"
           />
@@ -45,7 +52,7 @@ const BigMarket = () => {
                 <Image src={gain} alt="Gain Instant" />
                 <h4>Gain Instant</h4>
                 <p className="neutral-bottom">
-                  Revest performs deep due diligence on sponsors, giving
+                  Homevest performs deep due diligence on sponsors, giving
                   investors peace of mind.
                 </p>
               </div>
@@ -56,7 +63,7 @@ const BigMarket = () => {
 
                 <h4>Get Noticed</h4>
                 <p className="neutral-bottom">
-                  REVEST VERIFIED sponsor profiles are available to accredited
+                  Homevest VERIFIED sponsor profiles are available to accredited
                   real estate investment investors.
                 </p>
               </div>

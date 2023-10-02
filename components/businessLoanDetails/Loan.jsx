@@ -6,7 +6,7 @@ const Loan = () => {
       <div className="tabular__group">
         <div className="single">
           <p>Amount of funding</p>
-          <p>40,000 €</p>
+          <p>40,000 $</p>
         </div>
         <div className="single">
           <p>Risk</p>

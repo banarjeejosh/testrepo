@@ -48,10 +48,20 @@ const Footer = () => {
             <div className="col-md-12 col-lg-4 col-xl-4">
               <div className="footer__intro">
                 <Link href="/">
-                  <Image src={logoLight} alt="logoLight" />
+                  <Image src={logoLight} alt="logoLight"
+                  
+                  style={{
+                    width: '300px',
+                    height: 'auto',
+                    position: 'relative',
+                    top: '0px',
+                    left: '0px'
+                  }}
+                  
+                  />
                 </Link>
                 <p>
-                  Revest is a platform offering anyone the ability to invest and
+                  Homevest is a platform offering anyone the ability to invest and
                   potentially earn money from property at the click of a button
                 </p>
                 <div className="social">
@@ -148,7 +158,7 @@ const Footer = () => {
             <div className="col-sm-9 order-1 order-sm-0">
               <div className="footer__copyright">
                 <p>
-                  Copyright &copy; Revest | Designed by{" "}
+                  Copyright &copy; Homevest | Designed by{" "}
                   <Link href="https://themeforest.net/user/pixelaxis">
                     Pixelaxis
                   </Link>
@@ -180,11 +190,7 @@ const Footer = () => {
           src={footerRightCircle}
           alt="footer__right__circle"
         />
-        <Image
-          className="home__illustration"
-          src={footerHomeIllustration}
-          alt="footer__home___illustration"
-        />
+
       </div>
     </footer>
   );

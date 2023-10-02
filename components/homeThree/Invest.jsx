@@ -14,7 +14,7 @@ const Invest = () => {
             <h2>Why Invest in Real Estate?</h2>
             <p className="neutral-bottom">
               Start building your real estate investment portfolio today with as
-              little as € 100.
+              little as $ 100.
             </p>
           </div>
           <div className="row">

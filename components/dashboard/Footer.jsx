@@ -22,7 +22,7 @@ const Footer = () => {
                   <i className="fa-solid fa-phone"></i>(814) 277-4833
                 </p>
                 <p>
-                  <i className="fa-solid fa-envelope"></i>support@revest.com
+                  <i className="fa-solid fa-envelope"></i>support@Homevest.com
                 </p>
               </div>
             </div>
@@ -112,7 +112,7 @@ const Footer = () => {
             <div className="col-md-8">
               <div className="footer__copyright">
                 <p>
-                  Copyright &copy; Revest | Designed by{" "}
+                  Copyright &copy; Homevest | Designed by{" "}
                   <Link href="https://themeforest.net/user/pixelaxis">
                     Pixelaxis
                   </Link>

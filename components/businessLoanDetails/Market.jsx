@@ -19,9 +19,9 @@ const Market = () => {
                 <h5 className="neutral-top">
                   Real exposure to the real estate market
                 </h5>
-                <h2>You Invest. Revest Does the Rest</h2>
+                <h2>You Invest. Homevest Does the Rest</h2>
                 <p>
-                  Transparent Real Estate Investing Through Revest.Join us and
+                  Transparent Real Estate Investing Through Homevest.Join us and
                   experience a smarter,better way to invest in real estate
                 </p>
                 <Link href="/property" className="button button--effect">

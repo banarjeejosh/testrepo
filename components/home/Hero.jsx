@@ -15,8 +15,7 @@ const Hero = () => {
                   Real Estate Investment For <span>Everyone</span>{" "}
                 </h1>
                 <p className="primary neutral-bottom">
-                  Buy shares of rental properties, earn monthly income, and
-                  watch your money grow
+                Start growing your passive income today. Invest from as low as 100 USD in real estate opportunities.
                 </p>
                 <div className="hero__cta__group">
                   <Link href="/property" className="button button--effect">
@@ -26,7 +25,7 @@ const Hero = () => {
                     href="/business-loan"
                     className="button button--secondary button--effect"
                   >
-                    Get Funding
+                    Buy Shares
                   </Link>
                 </div>
               </div>

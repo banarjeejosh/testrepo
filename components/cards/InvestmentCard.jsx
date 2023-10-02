@@ -4,7 +4,7 @@ const InvestmentCard = () => {
   return (
     <div className="investment__wrapper">
       <div className="investment__wrapper__inner">
-        <h5>Investment Amount (100 €-30991€)</h5>
+        <h5>Investment Amount (100 $-30991$)</h5>
         <div className="input input--secondary">
           <input
             type="number"

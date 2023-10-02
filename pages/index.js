@@ -1,47 +1,52 @@
-// import Testimonial from "../components/affiliate/Testimonial";
 import Filter from "../components/common/Filter";
 import Stape from "../components/common/Stape";
-import VideoPopup from "../components/common/VideoPopup";
-import AllProducts from "../components/home/AllProducts";
-import FeaturedProperties from "../components/home/FeaturedProperties";
-import Hero from "../components/home/Hero";
-import Market from "../components/home/Market";
-import Numbers from "../components/home/Numbers";
-import SmartInvestor from "../components/home/SmartInvestor";
+import AllProperties from "../components/homeTwo/AllProperties";
+import Banner from "../components/homeTwo/Banner";
+import BigMarket from "../components/homeTwo/BigMarket";
+import Explore from "../components/homeTwo/Explore";
+import Invest from "../components/homeTwo/Invest";
+import Platform from "../components/homeTwo/Platform";
+import Portfolio from "../components/homeTwo/Portfolio";
+import Community from "../components/howItWorks/Community";
 import TestimonialSlider from "../components/sliders/TestimonialSlider";
 
-export default function Home() {
+const HomeTwo = () => {
   return (
     <>
-      {/* Hero start here */}
-      <Hero />
+      {/* Banner start here */}
+      <Banner />
 
       {/* Filter start here */}
       <Filter />
 
-      {/* Featured Properties start here */}
-      <FeaturedProperties />
+      {/* Explore start here */}
+      <Explore />
 
-      {/* All Products start here */}
-      <AllProducts />
-
-      {/* Smart Investor start here */}
-      <SmartInvestor />
+      {/* All Properties start here */}
+      <AllProperties />
 
       {/* Stape start here */}
-      <Stape bg={true} />
+      <Stape bg={false} cls={"start--two"} />
 
-      {/* Video Popup start here */}
-      <VideoPopup />
+      {/* Big Market start here */}
+      <BigMarket />
 
-      {/* Numbers start here */}
-      <Numbers />
+      {/* Platform start here */}
+      <Platform />
+
+      {/* Portfolio start here */}
+      <Portfolio />
+
+      {/* Invest start here */}
+      <Invest />
+
+      {/* Community start here */}
+      <Community />
 
       {/* Testimonial Slider start here */}
-      <TestimonialSlider />
-
-      {/* Market start here */}
-      <Market />
+      <TestimonialSlider cls="testimonial--two" />
     </>
   );
-}
+};
+
+export default HomeTwo;
