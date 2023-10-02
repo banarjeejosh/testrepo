@@ -48,17 +48,7 @@ const Footer = () => {
             <div className="col-md-12 col-lg-4 col-xl-4">
               <div className="footer__intro">
                 <Link href="/">
-                  <Image src={logoLight} alt="logoLight"
-                  
-                  style={{
-                    width: '300px',
-                    height: 'auto',
-                    position: 'relative',
-                    top: '0px',
-                    left: '0px'
-                  }}
-                  
-                  />
+                  <Image src={logoLight} alt="logoLight" />
                 </Link>
                 <p>
                   Homevest is a platform offering anyone the ability to invest and
