@@ -1,5 +1,5 @@
 import InvestmentCard from "../cards/InvestmentCard";
-import HomevestStatistic from "./HomevestStatistic";
+import RevestStatistic from "./RevestStatistic";
 
 const ApplicationBody = () => {
   return (
@@ -10,8 +10,8 @@ const ApplicationBody = () => {
           <InvestmentCard />
         </div>
 
-        {/* Homevest Statistic */}
-        <HomevestStatistic />
+        {/* Revest Statistic */}
+        <RevestStatistic />
       </div>
     </section>
   );

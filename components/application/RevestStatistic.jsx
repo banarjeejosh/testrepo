@@ -1,10 +1,10 @@
 import { FaEuroSign } from "react-icons/fa";
 
-const HomevestStatistic = () => {
+const RevestStatistic = () => {
   return (
     <div className="investment__inner__area section__space__top wow fadeInUp">
       <div className="section__header">
-        <h5 className="neutral-top">Homevest Statistic</h5>
+        <h5 className="neutral-top">Revest Statistic</h5>
         <h2>Numbers Said More Than Words</h2>
         <p className="neutral-bottom">
           Businesses have been able to easily and quickly raise funds for the
@@ -50,4 +50,4 @@ const HomevestStatistic = () => {
   );
 };
 
-export default HomevestStatistic;
+export default RevestStatistic;

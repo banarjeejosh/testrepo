@@ -10,7 +10,7 @@ const ApplicationForm = () => {
             <h2>Grow Your Business Faster!</h2>
             <p className="neutral-bottom">
               Getting a business loan secured through collateral is much easier
-              and faster with Homevest
+              and faster with Revest
             </p>
           </div>
           <form action="#" name="property__alert__from" method="post">
@@ -60,7 +60,7 @@ const ApplicationForm = () => {
               </div>
             </div>
             <div className="regi__type">
-              <label>Amount of money required (not less than 5000 $) **</label>
+              <label>Amount of money required (not less than 5000 €) **</label>
               <div className="select px-3">
                 <select
                   className="type__select w-100 h-100"

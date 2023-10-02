@@ -3,7 +3,7 @@ export const navData = [
     id: "m@01",
     itm: "Home",
     url: "/#",
-    dropdown: false,
+    dropdown: true,
     dropdown_itms: [
       {
         id: "dp@11",
@@ -47,21 +47,11 @@ export const navData = [
   },
   {
     id: "m@03",
-    itm: "Dashboard",
+    itm: "Loan",
     url: "/#",
     dropdown: true,
     dropdown_itms: [
       {
-        id: "dp@51",
-        dp_itm: "Dashboard",
-        url: "/dashboard",
-      },
-      {
-        id: "dp@588",
-        dp_itm: "Support",
-        url: "/support",
-      },
-      /*{
         id: "dp@31",
         dp_itm: "Business Loan",
         url: "/business-loan",
@@ -75,23 +65,22 @@ export const navData = [
         id: "dp@33",
         dp_itm: "Loan Application",
         url: "/business-loan/application",
-      },*/
+      },
     ],
   },
   {
     id: "m@04",
-    itm: "About Us",
-    url: "/about",
+    itm: "List your property",
+    url: "/list-your-property",
     dropdown: false,
   },
-  
   {
     id: "m@05",
     itm: "Pages",
     url: "/#",
     dropdown: true,
     dropdown_itms: [
-      /*{
+      {
         id: "dp@51",
         dp_itm: "Dashboard",
         url: "/dashboard",
@@ -130,7 +119,7 @@ export const navData = [
         id: "dp@58",
         dp_itm: "Career Details",
         url: "/career/{id}",
-      },*/
+      },
       {
         id: "dp@5008",
         dp_itm: "How It Works",
@@ -156,7 +145,7 @@ export const navData = [
         dp_itm: "Privacy Policy",
         url: "/privacy-policy",
       },
-      /*{
+      {
         id: "dp@584",
         dp_itm: "Cookie Policy",
         url: "/cookie-policy",
@@ -166,11 +155,11 @@ export const navData = [
         dp_itm: "Support",
         url: "/support",
       },
-      /*{
+      {
         id: "dp@5888",
         dp_itm: "Error",
         url: "/404",
-      },*/
+      },
     ],
   },
   {

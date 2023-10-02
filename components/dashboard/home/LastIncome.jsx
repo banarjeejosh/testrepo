@@ -22,7 +22,7 @@ const LastIncome = () => {
               <p className="secondary">18.03.2022</p>
             </div>
           </div>
-          <h6>$302,50</h6>
+          <h6>€302,50</h6>
         </div>
       ))}
     </div>

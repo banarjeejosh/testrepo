@@ -22,7 +22,7 @@ const InvestForm = () => {
           type="number"
           name="an__num_in"
           id="anNumIn"
-          placeholder="$ 500"
+          placeholder="€ 500"
           required="required"
         />
       </div>
@@ -32,7 +32,7 @@ const InvestForm = () => {
           type="number"
           name="an__num_in_two"
           id="anNumInTwo"
-          placeholder="$ 35.00"
+          placeholder="€ 35.00"
           required="required"
         />
       </div>

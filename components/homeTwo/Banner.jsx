@@ -16,7 +16,7 @@ const Banner = () => {
                 </h1>
                 <p className="primary neutral-bottom">
                   Start growing your passive income today. Invest from as low as
-                  100 USD in real estate opportunities.
+                  100 EUR in real estate opportunities worldwide.
                 </p>
                 <div className="hero__cta__group">
                   <Link href="/property" className="button button--effect">
@@ -26,22 +26,14 @@ const Banner = () => {
                     href="/business-loan"
                     className="button button--secondary button--effect"
                   >
-                    Buy Shares
+                    Get Funding
                   </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-5 col-xxl-6">
               <div className="hero__illustration d-none d-lg-block">
-                <Image src={heroTwoIllustration} alt="Hero Illustration"
-                style={{
-                  width: '600px',
-                  height: 'auto',
-                  position: 'relative',
-                  top: '20px',
-                  left: '-200px'
-                }}
-                />
+                <Image src={heroTwoIllustration} alt="Hero Illustration" />
               </div>
             </div>
           </div>

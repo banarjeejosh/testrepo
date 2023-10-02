@@ -75,7 +75,7 @@ const InvestmentBody = () => {
                           <div className="group">
                             <Image src={wallet} alt="Wallet" />
                             <div>
-                              <h4>$537,00</h4>
+                              <h4>€537,00</h4>
                               <p>Monthly Income</p>
                             </div>
                           </div>

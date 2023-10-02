@@ -7,7 +7,7 @@ const Income = () => {
     <>
       <div className="balance-report">
         <div>
-          <h4>$537,00</h4>
+          <h4>€537,00</h4>
           <p className="secondary">Monthly Income</p>
         </div>
         <div className="dashboard-balance-report select">
@@ -34,14 +34,14 @@ const Income = () => {
           <p>Amount Invested</p>
           <h6>
             <Image src={invested} alt="Invested" />
-            $108.934,00
+            €108.934,00
           </h6>
         </div>
         <div className="group-inner">
           <p>Total Earnings</p>
           <h6>
             <Image src={earned} alt="Earned" />
-            $12.606,00
+            €12.606,00
           </h6>
         </div>
       </div>

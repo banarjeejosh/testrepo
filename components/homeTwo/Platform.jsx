@@ -27,15 +27,7 @@ const Platform = () => {
             </div>
             <div className="col-lg-6">
               <div className="platform__thumb thumb__ltr d-none d-lg-block">
-                <Image src={platformIllustration}
-                style={{
-                  width: '450px',
-                  height: 'auto',
-                  position: 'relative',
-                  top: '20px',
-                  left: '20px'
-                }}
-                alt="platform Illustration" />
+                <Image src={platformIllustration} alt="platform Illustration" />
               </div>
             </div>
           </div>

@@ -45,19 +45,19 @@ const Details = () => {
                     <p>Annual interest rate</p>
                     <div className="tabular__group">
                       <div className="single">
-                        <p>Investing from 100 $</p>
+                        <p>Investing from 100 €</p>
                         <p>Fixed interest 13 %</p>
                       </div>
                       <div className="single">
-                        <p>Investing from 500 $</p>
+                        <p>Investing from 500 €</p>
                         <p>Fixed interest 13.25 %</p>
                       </div>
                       <div className="single">
-                        <p>Investing from 1500 $</p>
+                        <p>Investing from 1500 €</p>
                         <p>Fixed interest 13.5 %</p>
                       </div>
                       <div className="single">
-                        <p>Investing from 2500 $</p>
+                        <p>Investing from 2500 €</p>
                         <p>Fixed interest 14 %</p>
                       </div>
                     </div>
@@ -98,7 +98,7 @@ const Details = () => {
                       />
                     </div>
                     <h5>
-                      Available for funding: <span>$134 514</span>
+                      Available for funding: <span>€134 514</span>
                     </h5>
                     <div className="progress__type progress__type--two">
                       <div className="progress">
@@ -146,7 +146,7 @@ const Details = () => {
                             type="number"
                             name="an__num_in"
                             id="anNumIn"
-                            placeholder="$ 500"
+                            placeholder="€ 500"
                             required="required"
                           />
                         </div>
